@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "Notes.Common.EntityModels"
+		},
+		{
+			"path": "Notes.Common.DataContext.Sqlite"
+		},
+		{
+			"path": "Notes.WebApi"
+		}
+	]
+}

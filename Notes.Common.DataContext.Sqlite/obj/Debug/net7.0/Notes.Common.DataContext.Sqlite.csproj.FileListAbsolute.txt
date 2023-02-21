@@ -1,0 +1,15 @@
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.DataContext.Sqlite/bin/Debug/net7.0/Notes.Common.DataContext.Sqlite.deps.json
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.DataContext.Sqlite/bin/Debug/net7.0/Notes.Common.DataContext.Sqlite.dll
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.DataContext.Sqlite/bin/Debug/net7.0/Notes.Common.DataContext.Sqlite.pdb
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.DataContext.Sqlite/bin/Debug/net7.0/Notes.Common.EntityModels.dll
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.DataContext.Sqlite/bin/Debug/net7.0/Notes.Common.EntityModels.pdb
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.DataContext.Sqlite/obj/Debug/net7.0/Notes.Common.DataContext.Sqlite.csproj.AssemblyReference.cache
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.DataContext.Sqlite/obj/Debug/net7.0/Notes.Common.DataContext.Sqlite.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.DataContext.Sqlite/obj/Debug/net7.0/Notes.Common.DataContext.Sqlite.AssemblyInfoInputs.cache
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.DataContext.Sqlite/obj/Debug/net7.0/Notes.Common.DataContext.Sqlite.AssemblyInfo.cs
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.DataContext.Sqlite/obj/Debug/net7.0/Notes.Common.DataContext.Sqlite.csproj.CoreCompileInputs.cache
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.DataContext.Sqlite/obj/Debug/net7.0/Notes.Common.DataContext.Sqlite.csproj.CopyComplete
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.DataContext.Sqlite/obj/Debug/net7.0/Notes.Common.DataContext.Sqlite.dll
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.DataContext.Sqlite/obj/Debug/net7.0/refint/Notes.Common.DataContext.Sqlite.dll
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.DataContext.Sqlite/obj/Debug/net7.0/Notes.Common.DataContext.Sqlite.pdb
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.DataContext.Sqlite/obj/Debug/net7.0/ref/Notes.Common.DataContext.Sqlite.dll

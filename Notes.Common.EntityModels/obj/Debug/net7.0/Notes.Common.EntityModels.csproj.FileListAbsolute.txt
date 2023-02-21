@@ -1,0 +1,14 @@
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/bin/Debug/net7.0/Notes.Common.EntityModels.deps.json
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/bin/Debug/net7.0/Notes.Common.EntityModels.runtimeconfig.json
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/bin/Debug/net7.0/Notes.Common.EntityModels.dll
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/bin/Debug/net7.0/Notes.Common.EntityModels.pdb
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/obj/Debug/net7.0/Notes.Common.EntityModels.csproj.AssemblyReference.cache
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/obj/Debug/net7.0/Notes.Common.EntityModels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/obj/Debug/net7.0/Notes.Common.EntityModels.AssemblyInfoInputs.cache
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/obj/Debug/net7.0/Notes.Common.EntityModels.AssemblyInfo.cs
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/obj/Debug/net7.0/Notes.Common.EntityModels.csproj.CoreCompileInputs.cache
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/obj/Debug/net7.0/Notes.Common.EntityModels.dll
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/obj/Debug/net7.0/refint/Notes.Common.EntityModels.dll
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/obj/Debug/net7.0/Notes.Common.EntityModels.pdb
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/obj/Debug/net7.0/Notes.Common.EntityModels.genruntimeconfig.cache
+/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/obj/Debug/net7.0/ref/Notes.Common.EntityModels.dll
