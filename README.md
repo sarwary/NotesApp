@@ -1,5 +1,5 @@
 # NotesApp
-This project includes CRUD operations for not taking app using .NET Web API
+This project includes CRUD operations for note taking app using .NET Web API
 
 This solution includes three project to improve scalability and seperatoin of concerns:
 
