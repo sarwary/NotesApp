@@ -86,8 +86,6 @@ public class NotesController : ControllerBase
     {
         if (n == null || n.NoteId != id)
         {
-
-            WriteLine("alles gut");
             return BadRequest();
         }
         Note? existing = await repo.RetrieveAsync(id);
