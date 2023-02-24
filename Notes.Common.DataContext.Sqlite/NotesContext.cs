@@ -6,9 +6,6 @@ namespace Notes.Shared;
 
 public partial class NotesContext : DbContext
 {
-    public NotesContext()
-    {
-    }
 
     public NotesContext(DbContextOptions<NotesContext> options)
         : base(options)

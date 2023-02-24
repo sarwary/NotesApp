@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection; // IServiceCollection
 
 namespace Notes.Shared;
 
-public static class NorthwindContextExtensions
+public static class NotesContextExtensions
 {
   /// <summary>
   /// Adds NotesContext to the specified IServiceCollection. Uses the Sqlite database provider.

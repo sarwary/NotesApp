@@ -7,7 +7,7 @@ using Swashbuckle.AspNetCore.SwaggerUI; // SubmitMethod
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddScoped<INoteRepository, NoteRepository>();
+builder.Services.AddScoped<INoteRepository, NoteRepository>();// ICustomerRepository, CustomerRepository
 
 builder.Services.AddNotesContext();
 // Add services to the container.

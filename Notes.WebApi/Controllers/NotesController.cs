@@ -1,50 +1,47 @@
-using Microsoft.AspNetCore.Mvc;
-using Notes.Shared;
-using Notes.WebApi.Repositories;
+using Microsoft.AspNetCore.Mvc;  // [Route], [ApiController], ControllerBase
+using Notes.Shared; // Note
+using Notes.WebApi.Repositories; // ICustomerRepository
 
 namespace Notes.WebApi.Controllers;
 
+// base address: api/notes
 [Route("api/[controller]")]
 [ApiController]
 public class NotesController : ControllerBase
 {
     private readonly INoteRepository repo;
 
+    // constructor injects repository registered in Startup
     public NotesController(INoteRepository repo)
     {
         this.repo = repo;
     }
 
+    // GET: api/notes
+    // GET: api/notes/?notid=[id]
+    // this will always return a list of notes (but it might be empty)
     [HttpGet]
     [ProducesResponseType(200, Type = typeof(IEnumerable<Note>))]
-    public async Task<IEnumerable<Note>> GetNotes(int? id)
+    public async Task<IEnumerable<Note>> GetNotes()
     {
-        if (id is null)
-        {
             return await repo.RetrieveAllAsync();
 
-        }
-        else
-        {
-            return (await repo.RetrieveAllAsync()).Where(note => note.NoteId == id);
-        }
     }
 
     //GET: api/notes/id
-    [HttpGet("{id}", Name = nameof(GetNote))]
+    [HttpGet("{id}", Name = nameof(GetNote))] // named route
     [ProducesResponseType(200, Type = typeof(Note))]
     [ProducesResponseType(404)]
-
     public async Task<IActionResult> GetNote(int id)
     {
         Note? n = await repo.RetrieveAsync(id);
         if (n == null)
         {
-            return NotFound();
+            return NotFound(); // 404 Resource not found
         }
         else
         {
-            return Ok(n);
+            return Ok(n); // 200 OK with Note in body
         }
     }
 
@@ -60,7 +57,7 @@ public class NotesController : ControllerBase
         
         if (n == null)
         {
-            return BadRequest("not is null");
+            return BadRequest(); // 400 Bad request
         }
 
         Note? addedNote = await repo.CreateAsync(n);
@@ -70,7 +67,7 @@ public class NotesController : ControllerBase
         }
         else
         {
-            return CreatedAtRoute(
+            return CreatedAtRoute(  // 201 Created
                 routeName: nameof(GetNote),
                 routeValues: new { id = addedNote.NoteId },
                 value: addedNote
@@ -96,7 +93,7 @@ public class NotesController : ControllerBase
         Note? existing = await repo.RetrieveAsync(id);
         if (existing == null)
         {
-            return NotFound();
+            return NotFound(); // 400 Bad request
         }
         await repo.UpdateAsync(id, n);
 
