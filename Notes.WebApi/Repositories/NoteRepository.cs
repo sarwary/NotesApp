@@ -62,7 +62,7 @@ public class NoteRepository : INoteRepository
 
     private Note UpdateCache(int id, Note n){
         Note? old;
-        if(NotesCache is null){
+        if(NotesCache is not null){
             if (NotesCache.TryGetValue(id, out old))
             {
                 if (NotesCache.TryUpdate(id,n,old))
@@ -97,6 +97,7 @@ public class NoteRepository : INoteRepository
         db.Notes.Remove(n);
         int affected = await db.SaveChangesAsync();
         if(affected==1){
+            
                 if(NotesCache is null) return null;
                 return NotesCache.TryRemove(id, out n);
             
