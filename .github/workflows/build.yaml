@@ -19,6 +19,7 @@ jobs:
         dotnet-version: 7.0.x
     - name: Restore dependencies
       run: dotnet restore
+      working-directory: Notes.WebApi/Notes.WebApi.csproj
     - name: Build
       run: dotnet build --no-restore
     - name: Test
