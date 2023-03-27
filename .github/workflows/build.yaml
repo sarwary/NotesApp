@@ -22,5 +22,6 @@ jobs:
       working-directory: Notes.WebApi
     - name: Build
       run: dotnet build --no-restore
+      working-directory: Notes.WebApi
     - name: Test
       run: dotnet test --no-build --verbosity normal
