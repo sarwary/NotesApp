@@ -17,9 +17,16 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 7.0.x
-    - name: Restore dependencies
-      run: dotnet restore
+    - name: Restore dependencies in Notes.WebApi
       working-directory: Notes.WebApi
+      run: dotnet restore
+    - name: Restore dependencies in Notes.Common.EnityModels
+      working-directory: Notes.Common.EnityModels
+      run: dotnet restore   
+    - name: Restore dependencies in Notes.Common.DataContext.Sqlite
+      working-directory: Notes.Common.DataContext.Sqlite
+      run: dotnet restore       
+
     - name: Build
       working-directory: Notes.WebApi
       run: dotnet build --no-restore
