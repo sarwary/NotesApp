@@ -1,3 +1,4 @@
+//test project
 // IOutputFormatter, OutputFormatter
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Notes.Shared; // AddNotesContext extension method
