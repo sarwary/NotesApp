@@ -20,8 +20,8 @@ jobs:
     - name: Restore dependencies in Notes.WebApi
       working-directory: Notes.WebApi
       run: dotnet restore
-    - name: Restore dependencies in Notes.Common.EnityModels
-      working-directory: Notes.Common.EnityModels
+    - name: Restore dependencies in Notes.Common.EntityModels
+      working-directory: Notes.Common.EntityModels
       run: dotnet restore   
     - name: Restore dependencies in Notes.Common.DataContext.Sqlite
       working-directory: Notes.Common.DataContext.Sqlite
