@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/Notes.Common.EntityModels.csproj": {}
+    "/Users/ghulamqadersarwary/Documents/GitP/NotesApp/Notes.Common.EntityModels/Notes.Common.EntityModels.csproj": {}
   },
   "projects": {
-    "/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/Notes.Common.EntityModels.csproj": {
+    "/Users/ghulamqadersarwary/Documents/GitP/NotesApp/Notes.Common.EntityModels/Notes.Common.EntityModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/Notes.Common.EntityModels.csproj",
+        "projectUniqueName": "/Users/ghulamqadersarwary/Documents/GitP/NotesApp/Notes.Common.EntityModels/Notes.Common.EntityModels.csproj",
         "projectName": "Notes.Common.EntityModels",
-        "projectPath": "/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/Notes.Common.EntityModels.csproj",
+        "projectPath": "/Users/ghulamqadersarwary/Documents/GitP/NotesApp/Notes.Common.EntityModels/Notes.Common.EntityModels.csproj",
         "packagesPath": "/Users/ghulamqadersarwary/.nuget/packages/",
-        "outputPath": "/Users/ghulamqadersarwary/Documents/NotesApp/Notes.Common.EntityModels/obj/",
+        "outputPath": "/Users/ghulamqadersarwary/Documents/GitP/NotesApp/Notes.Common.EntityModels/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ghulamqadersarwary/.nuget/NuGet/NuGet.Config"

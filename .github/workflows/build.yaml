@@ -31,5 +31,6 @@ jobs:
       working-directory: Notes.WebApi
       run: dotnet build --no-restore
       
-    #- name: Test
-      #run: dotnet test --no-build --verbosity normal
+    - name: Testing the Note entity
+      working-directory: Notes.Test
+      run: dotnet test --no-build --verbosity normal
